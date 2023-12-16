@@ -1,14 +1,15 @@
 const express = require('express');
 const router = express.Router();
+const stripe = require('../stripe');
 
 router.post('/create-payment-intent', async (req, res) => {
-  const { amount } = req.body; // Asegúrate de pasar el monto correcto desde el cliente
+  const { amount } = req.body; 
   
   try {
     const paymentIntent = await stripe.paymentIntents.create({
       amount: amount,
-      currency: 'usd', // o la moneda que prefieras
-      // puedes añadir más opciones aquí según sea necesario
+      currency: 'usd', 
+      
     });
 
     res.send({
