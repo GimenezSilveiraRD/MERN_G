@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos de Natación</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.category {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+    color: #007bff;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.product h3 {
+    color: #007bff;
+}
+
+.product p {
+    font-size: 0.9em;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-basis: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Catálogo de Productos de Natación</h1>
+    </div>
+
+    <!-- Categoría: Gafas de Natación -->
+    <div class="category">
+        <h2>Gafas de Natación</h2>
+        <div class="product-list">
+            <!-- Producto 1 -->
+            <div class="product">
+                <img src="ruta-a-imagen-gafas1.jpg" alt="Gafas de Natación Modelo 1">
+                <h3>Gafas de Natación Modelo 1</h3>
+                <p>Descripción del producto 1.</p>
+                <p>Precio: $20.000</p>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- Categoría: Trajes de Baño -->
+    <div class="category">
+        <h2>Trajes de Baño</h2>
+        <div class="product-list">
+            <!-- Producto 1 -->
+            <div class="product">
+                <img src="ruta-a-imagen-traje1.jpg" alt="Traje de Baño Modelo 1">
+                <h3>Traje de Baño Modelo 1</h3>
+                <p>Descripción del producto 1.</p>
+                <p>Precio: $40.000</p>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    <div class="footer">
+        <p>&copy; 2023 Catálogo de Productos de Natación</p>
+    </div>
+</body>
+</html>
