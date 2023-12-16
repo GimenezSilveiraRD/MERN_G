@@ -2,6 +2,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Axios from "axios";
 import WrappedPaymentForm from "./PaymentForm";
+import ShoppingCart from "./ShoppingCart";
 import CheckoutForm from "./CheckoutForm";
 
 function App() {
