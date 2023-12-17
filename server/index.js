@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/api/payment', paymentRoutes);
 
 mongoose.connect(
-  "mongodb+srv://rdgimsil:sYZBc6fouYCYmirf@mern5.9bxibww.mongodb.net/MERN5?retryWrites=true&w=majority"
+  "mongodb+srv://eeeeeeeeeeeeeeeee@mern5.9bxibww.mongodb.net/MERN5?retryWrites=true&w=majority"
 );
 
 app.get("/getUsers", (req, res) => {
