@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# security
+mongodb+srv://rdgimsil:sYZBc6fouYCYmirf@mern5.9bxibww.mongodb.net/MERN5?retryWrites=true&w=majority
